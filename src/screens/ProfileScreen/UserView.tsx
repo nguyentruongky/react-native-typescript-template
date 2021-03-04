@@ -19,7 +19,7 @@ export default function UserView({user}) {
         />
         <NumberView user={user} />
         <View style={{height: 1, backgroundColor: colors.line}} />
-        {/* <MenuView /> */}
+        <MenuView />
       </SafeAreaView>
     </ScrollView>
   );
@@ -123,7 +123,7 @@ function MenuView() {
   }
   return (
     <View>
-      <MenuItem
+      {/* <MenuItem
         onPress={null}
         IconLibrary={Ionicons}
         title="Your Notes"
@@ -136,7 +136,7 @@ function MenuView() {
         title="Your Bookmarks"
         iconLeft={4}
       />
-      <View style={{marginTop: 32, height: 1, backgroundColor: colors.line}} />
+      <View style={{marginTop: 32, height: 1, backgroundColor: colors.line}} /> */}
 
       <MenuItem
         IconLibrary={Ionicons}

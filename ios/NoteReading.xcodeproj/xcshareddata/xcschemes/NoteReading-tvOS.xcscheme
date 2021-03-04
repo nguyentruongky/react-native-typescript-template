@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "Airbnb-tvOS.app"
-               BlueprintName = "Airbnb-tvOS"
-               ReferencedContainer = "container:Airbnb.xcodeproj">
+               BuildableName = "NoteReading-tvOS.app"
+               BlueprintName = "NoteReading-tvOS"
+               ReferencedContainer = "container:NoteReading.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "Airbnb-tvOSTests.xctest"
-               BlueprintName = "Airbnb-tvOSTests"
-               ReferencedContainer = "container:Airbnb.xcodeproj">
+               BuildableName = "NoteReading-tvOSTests.xctest"
+               BlueprintName = "NoteReading-tvOSTests"
+               ReferencedContainer = "container:NoteReading.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Airbnb-tvOS.app"
-            BlueprintName = "Airbnb-tvOS"
-            ReferencedContainer = "container:Airbnb.xcodeproj">
+            BuildableName = "NoteReading-tvOS.app"
+            BlueprintName = "NoteReading-tvOS"
+            ReferencedContainer = "container:NoteReading.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Airbnb-tvOS.app"
-            BlueprintName = "Airbnb-tvOS"
-            ReferencedContainer = "container:Airbnb.xcodeproj">
+            BuildableName = "NoteReading-tvOS.app"
+            BlueprintName = "NoteReading-tvOS"
+            ReferencedContainer = "container:NoteReading.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

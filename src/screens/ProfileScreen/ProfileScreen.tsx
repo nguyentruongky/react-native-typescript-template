@@ -15,7 +15,7 @@ export default function ProfileScreen() {
   function onAuthStateChanged(user) {
     setUser(user);
     if (user) {
-      setUserToCrashCenter(user);
+      // setUserToCrashCenter(user);
       getUser(user.uid, (myAccount) => {
         setUser(myAccount);
       });
@@ -23,6 +23,9 @@ export default function ProfileScreen() {
   }
 
   function setUserToCrashCenter(user) {
+    if (!user) {
+      return;
+    }
     crashCenter.setUserId(user.userId);
     crashCenter.setAttributes({
       email: user.email,
@@ -71,8 +74,8 @@ function AppInfo() {
           color: colors.subText,
           margin: 16,
         }}>
-        Version 0.1 {'  '}
-        <Entypo name="info-with-circle" size={16} color={colors.subText} />
+        Version 1.0.6 {'  '}
+        {/* <Entypo name="info-with-circle" size={16} color={colors.subText} /> */}
       </Text>
     </TouchableOpacity>
   );

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* AirbnbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AirbnbTests.m */; };
-		0BBB4519CB0EFA83449EA242 /* libPods-Airbnb-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9223B0A8B7E55377C953DDB /* libPods-Airbnb-tvOS.a */; };
+		00E356F31AD99517003FC87E /* NoteReadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* NoteReadingTests.m */; };
+		0BBB4519CB0EFA83449EA242 /* libPods-NoteReading-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9223B0A8B7E55377C953DDB /* libPods-NoteReading-tvOS.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -22,10 +22,10 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* AirbnbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AirbnbTests.m */; };
-		7CE5ED73B49428D6D2F6FBAF /* libPods-Airbnb-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 993D93E1B13583A543B31DA6 /* libPods-Airbnb-tvOSTests.a */; };
-		D02F997B60C84CF1C8900373 /* libPods-Airbnb-AirbnbTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB23C237C7911230DA47542F /* libPods-Airbnb-AirbnbTests.a */; };
-		E9C96AB6BFF07B90B17D91C9 /* libPods-Airbnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A08D68011993D3ABF81044B /* libPods-Airbnb.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* NoteReadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* NoteReadingTests.m */; };
+		7CE5ED73B49428D6D2F6FBAF /* libPods-NoteReading-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 993D93E1B13583A543B31DA6 /* libPods-NoteReading-tvOSTests.a */; };
+		D02F997B60C84CF1C8900373 /* libPods-NoteReading-NoteReadingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB23C237C7911230DA47542F /* libPods-NoteReading-NoteReadingTests.a */; };
+		E9C96AB6BFF07B90B17D91C9 /* libPods-NoteReading.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A08D68011993D3ABF81044B /* libPods-NoteReading.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,50 +34,51 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = Airbnb;
+			remoteInfo = NoteReading;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "Airbnb-tvOS";
+			remoteInfo = "NoteReading-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* AirbnbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirbnbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* NoteReadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteReadingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* AirbnbTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirbnbTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Airbnb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airbnb.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Airbnb/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Airbnb/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Airbnb/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Airbnb/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Airbnb/main.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* NoteReadingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteReadingTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* NoteReading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteReading.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = NoteReading/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = NoteReading/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NoteReading/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = NoteReading/main.m; sourceTree = "<group>"; };
 		26155D4D25877AEE004F2DB3 /* SFUIDisplay-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Medium.otf"; sourceTree = "<group>"; };
 		26155D4E25877AEE004F2DB3 /* SFUIDisplay-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-SemiBold.otf"; sourceTree = "<group>"; };
 		26155D4F25877AEE004F2DB3 /* SFUIDisplay-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Bold.otf"; sourceTree = "<group>"; };
 		26155D5025877AEE004F2DB3 /* SFUIDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Regular.otf"; sourceTree = "<group>"; };
-		266B5EDF25EC3288002A9BBA /* Airbnb-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Airbnb-Bridging-Header.h"; sourceTree = "<group>"; };
+		266B5EDF25EC3288002A9BBA /* NoteReading-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NoteReading-Bridging-Header.h"; sourceTree = "<group>"; };
 		266B5EE025EC3288002A9BBA /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		266B5EE625EC32E0002A9BBA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		266B5F8325EC8865002A9BBA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* Airbnb-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Airbnb-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* Airbnb-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Airbnb-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FCBA5066F796D310C4A982F /* Pods-Airbnb-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Airbnb-tvOSTests/Pods-Airbnb-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		5A08D68011993D3ABF81044B /* libPods-Airbnb.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Airbnb.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		69C09777ADC020A402000E41 /* Pods-Airbnb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb.release.xcconfig"; path = "Target Support Files/Pods-Airbnb/Pods-Airbnb.release.xcconfig"; sourceTree = "<group>"; };
-		6B3A7C10EFD2412E88AE42CE /* Pods-Airbnb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb.debug.xcconfig"; path = "Target Support Files/Pods-Airbnb/Pods-Airbnb.debug.xcconfig"; sourceTree = "<group>"; };
-		79A4989790EB7FEEB3DEB994 /* Pods-Airbnb-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Airbnb-tvOS/Pods-Airbnb-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		7BB560C39B32E6A1F0A1A12C /* Pods-Airbnb-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Airbnb-tvOSTests/Pods-Airbnb-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		993D93E1B13583A543B31DA6 /* libPods-Airbnb-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Airbnb-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7C93F7907656F0B8F613DFF /* Pods-Airbnb-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Airbnb-tvOS/Pods-Airbnb-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		A9223B0A8B7E55377C953DDB /* libPods-Airbnb-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Airbnb-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB23C237C7911230DA47542F /* libPods-Airbnb-AirbnbTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Airbnb-AirbnbTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C402248A7A52F5F5319CCA1A /* Pods-Airbnb-AirbnbTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb-AirbnbTests.debug.xcconfig"; path = "Target Support Files/Pods-Airbnb-AirbnbTests/Pods-Airbnb-AirbnbTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D7CEEA95DA765AD1212269EF /* Pods-Airbnb-AirbnbTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb-AirbnbTests.release.xcconfig"; path = "Target Support Files/Pods-Airbnb-AirbnbTests/Pods-Airbnb-AirbnbTests.release.xcconfig"; sourceTree = "<group>"; };
+		266B5F8925EC8A8C002A9BBA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		266B60CA25ECA7BE002A9BBA /* NoteReading.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = NoteReading.entitlements; path = NoteReading/NoteReading.entitlements; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* NoteReading-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NoteReading-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* NoteReading-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NoteReading-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCBA5066F796D310C4A982F /* Pods-NoteReading-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoteReading-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-NoteReading-tvOSTests/Pods-NoteReading-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A08D68011993D3ABF81044B /* libPods-NoteReading.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NoteReading.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C09777ADC020A402000E41 /* Pods-NoteReading.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoteReading.release.xcconfig"; path = "Target Support Files/Pods-NoteReading/Pods-NoteReading.release.xcconfig"; sourceTree = "<group>"; };
+		6B3A7C10EFD2412E88AE42CE /* Pods-NoteReading.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoteReading.debug.xcconfig"; path = "Target Support Files/Pods-NoteReading/Pods-NoteReading.debug.xcconfig"; sourceTree = "<group>"; };
+		79A4989790EB7FEEB3DEB994 /* Pods-NoteReading-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoteReading-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-NoteReading-tvOS/Pods-NoteReading-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		7BB560C39B32E6A1F0A1A12C /* Pods-NoteReading-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoteReading-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-NoteReading-tvOSTests/Pods-NoteReading-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		993D93E1B13583A543B31DA6 /* libPods-NoteReading-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NoteReading-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C93F7907656F0B8F613DFF /* Pods-NoteReading-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoteReading-tvOS.release.xcconfig"; path = "Target Support Files/Pods-NoteReading-tvOS/Pods-NoteReading-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		A9223B0A8B7E55377C953DDB /* libPods-NoteReading-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NoteReading-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB23C237C7911230DA47542F /* libPods-NoteReading-NoteReadingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NoteReading-NoteReadingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C402248A7A52F5F5319CCA1A /* Pods-NoteReading-NoteReadingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoteReading-NoteReadingTests.debug.xcconfig"; path = "Target Support Files/Pods-NoteReading-NoteReadingTests/Pods-NoteReading-NoteReadingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7CEEA95DA765AD1212269EF /* Pods-NoteReading-NoteReadingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoteReading-NoteReadingTests.release.xcconfig"; path = "Target Support Files/Pods-NoteReading-NoteReadingTests/Pods-NoteReading-NoteReadingTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -87,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D02F997B60C84CF1C8900373 /* libPods-Airbnb-AirbnbTests.a in Frameworks */,
+				D02F997B60C84CF1C8900373 /* libPods-NoteReading-NoteReadingTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9C96AB6BFF07B90B17D91C9 /* libPods-Airbnb.a in Frameworks */,
+				E9C96AB6BFF07B90B17D91C9 /* libPods-NoteReading.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BBB4519CB0EFA83449EA242 /* libPods-Airbnb-tvOS.a in Frameworks */,
+				0BBB4519CB0EFA83449EA242 /* libPods-NoteReading-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,20 +112,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CE5ED73B49428D6D2F6FBAF /* libPods-Airbnb-tvOSTests.a in Frameworks */,
+				7CE5ED73B49428D6D2F6FBAF /* libPods-NoteReading-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* AirbnbTests */ = {
+		00E356EF1AD99517003FC87E /* NoteReadingTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* AirbnbTests.m */,
+				00E356F21AD99517003FC87E /* NoteReadingTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = AirbnbTests;
+			path = NoteReadingTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -135,21 +136,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* Airbnb */ = {
+		13B07FAE1A68108700A75B9A /* NoteReading */ = {
 			isa = PBXGroup;
 			children = (
+				266B60CA25ECA7BE002A9BBA /* NoteReading.entitlements */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
-				13B07FB61A68108700A75B9A /* Info.plist */,
 				266B5EE625EC32E0002A9BBA /* GoogleService-Info.plist */,
 				266B5F8325EC8865002A9BBA /* LaunchScreen.storyboard */,
+				266B5F8925EC8A8C002A9BBA /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				266B5EE025EC3288002A9BBA /* File.swift */,
-				266B5EDF25EC3288002A9BBA /* Airbnb-Bridging-Header.h */,
+				266B5EDF25EC3288002A9BBA /* NoteReading-Bridging-Header.h */,
 			);
-			name = Airbnb;
+			name = NoteReading;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -157,10 +159,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				5A08D68011993D3ABF81044B /* libPods-Airbnb.a */,
-				AB23C237C7911230DA47542F /* libPods-Airbnb-AirbnbTests.a */,
-				A9223B0A8B7E55377C953DDB /* libPods-Airbnb-tvOS.a */,
-				993D93E1B13583A543B31DA6 /* libPods-Airbnb-tvOSTests.a */,
+				5A08D68011993D3ABF81044B /* libPods-NoteReading.a */,
+				AB23C237C7911230DA47542F /* libPods-NoteReading-NoteReadingTests.a */,
+				A9223B0A8B7E55377C953DDB /* libPods-NoteReading-tvOS.a */,
+				993D93E1B13583A543B31DA6 /* libPods-NoteReading-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -179,9 +181,9 @@
 				26155D4D25877AEE004F2DB3 /* SFUIDisplay-Medium.otf */,
 				26155D5025877AEE004F2DB3 /* SFUIDisplay-Regular.otf */,
 				26155D4E25877AEE004F2DB3 /* SFUIDisplay-SemiBold.otf */,
-				13B07FAE1A68108700A75B9A /* Airbnb */,
+				13B07FAE1A68108700A75B9A /* NoteReading */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* AirbnbTests */,
+				00E356EF1AD99517003FC87E /* NoteReadingTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				F38149CB921619D0AE02A5B2 /* Pods */,
@@ -194,10 +196,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Airbnb.app */,
-				00E356EE1AD99517003FC87E /* AirbnbTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* Airbnb-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* Airbnb-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* NoteReading.app */,
+				00E356EE1AD99517003FC87E /* NoteReadingTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* NoteReading-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* NoteReading-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -205,14 +207,14 @@
 		F38149CB921619D0AE02A5B2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6B3A7C10EFD2412E88AE42CE /* Pods-Airbnb.debug.xcconfig */,
-				69C09777ADC020A402000E41 /* Pods-Airbnb.release.xcconfig */,
-				C402248A7A52F5F5319CCA1A /* Pods-Airbnb-AirbnbTests.debug.xcconfig */,
-				D7CEEA95DA765AD1212269EF /* Pods-Airbnb-AirbnbTests.release.xcconfig */,
-				79A4989790EB7FEEB3DEB994 /* Pods-Airbnb-tvOS.debug.xcconfig */,
-				A7C93F7907656F0B8F613DFF /* Pods-Airbnb-tvOS.release.xcconfig */,
-				7BB560C39B32E6A1F0A1A12C /* Pods-Airbnb-tvOSTests.debug.xcconfig */,
-				3FCBA5066F796D310C4A982F /* Pods-Airbnb-tvOSTests.release.xcconfig */,
+				6B3A7C10EFD2412E88AE42CE /* Pods-NoteReading.debug.xcconfig */,
+				69C09777ADC020A402000E41 /* Pods-NoteReading.release.xcconfig */,
+				C402248A7A52F5F5319CCA1A /* Pods-NoteReading-NoteReadingTests.debug.xcconfig */,
+				D7CEEA95DA765AD1212269EF /* Pods-NoteReading-NoteReadingTests.release.xcconfig */,
+				79A4989790EB7FEEB3DEB994 /* Pods-NoteReading-tvOS.debug.xcconfig */,
+				A7C93F7907656F0B8F613DFF /* Pods-NoteReading-tvOS.release.xcconfig */,
+				7BB560C39B32E6A1F0A1A12C /* Pods-NoteReading-tvOSTests.debug.xcconfig */,
+				3FCBA5066F796D310C4A982F /* Pods-NoteReading-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -220,9 +222,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* AirbnbTests */ = {
+		00E356ED1AD99517003FC87E /* NoteReadingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AirbnbTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "NoteReadingTests" */;
 			buildPhases = (
 				7D5D8CA3B241DB9E89B3C878 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -235,14 +237,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = AirbnbTests;
-			productName = AirbnbTests;
-			productReference = 00E356EE1AD99517003FC87E /* AirbnbTests.xctest */;
+			name = NoteReadingTests;
+			productName = NoteReadingTests;
+			productReference = 00E356EE1AD99517003FC87E /* NoteReadingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* Airbnb */ = {
+		13B07F861A680F5B00A75B9A /* NoteReading */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Airbnb" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "NoteReading" */;
 			buildPhases = (
 				54DA42C2C5963C9EC5C22989 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -258,14 +260,14 @@
 			);
 			dependencies = (
 			);
-			name = Airbnb;
-			productName = Airbnb;
-			productReference = 13B07F961A680F5B00A75B9A /* Airbnb.app */;
+			name = NoteReading;
+			productName = NoteReading;
+			productReference = 13B07F961A680F5B00A75B9A /* NoteReading.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* Airbnb-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* NoteReading-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Airbnb-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "NoteReading-tvOS" */;
 			buildPhases = (
 				190F2A946769B2245A061412 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -278,14 +280,14 @@
 			);
 			dependencies = (
 			);
-			name = "Airbnb-tvOS";
-			productName = "Airbnb-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* Airbnb-tvOS.app */;
+			name = "NoteReading-tvOS";
+			productName = "NoteReading-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* NoteReading-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* Airbnb-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* NoteReading-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Airbnb-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "NoteReading-tvOSTests" */;
 			buildPhases = (
 				3006047193478DAFDA0921B4 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -297,9 +299,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "Airbnb-tvOSTests";
-			productName = "Airbnb-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* Airbnb-tvOSTests.xctest */;
+			name = "NoteReading-tvOSTests";
+			productName = "NoteReading-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* NoteReading-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -329,7 +331,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Airbnb" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "NoteReading" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -342,10 +344,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Airbnb */,
-				00E356ED1AD99517003FC87E /* AirbnbTests */,
-				2D02E47A1E0B4A5D006451C7 /* Airbnb-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* Airbnb-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* NoteReading */,
+				00E356ED1AD99517003FC87E /* NoteReadingTests */,
+				2D02E47A1E0B4A5D006451C7 /* NoteReading-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* NoteReading-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -419,7 +421,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Airbnb-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NoteReading-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -432,7 +434,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Airbnb/Pods-Airbnb-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-NoteReading/Pods-NoteReading-resources.sh",
 				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
@@ -477,7 +479,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Airbnb/Pods-Airbnb-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NoteReading/Pods-NoteReading-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
@@ -509,7 +511,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Airbnb-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NoteReading-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -531,7 +533,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Airbnb-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NoteReading-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -553,7 +555,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Airbnb-AirbnbTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NoteReading-NoteReadingTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -566,7 +568,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Airbnb-AirbnbTests/Pods-Airbnb-AirbnbTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-NoteReading-NoteReadingTests/Pods-NoteReading-NoteReadingTests-resources.sh",
 				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
@@ -611,7 +613,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Airbnb-AirbnbTests/Pods-Airbnb-AirbnbTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NoteReading-NoteReadingTests/Pods-NoteReading-NoteReadingTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9C18AFDBCB56B131039F0200 /* [CP-User] [RNFB] Crashlytics Configuration */ = {
@@ -683,7 +685,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* AirbnbTests.m in Sources */,
+				00E356F31AD99517003FC87E /* NoteReadingTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -710,7 +712,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* AirbnbTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* NoteReadingTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -719,12 +721,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* Airbnb */;
+			target = 13B07F861A680F5B00A75B9A /* NoteReading */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* Airbnb-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* NoteReading-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -732,7 +734,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C402248A7A52F5F5319CCA1A /* Pods-Airbnb-AirbnbTests.debug.xcconfig */;
+			baseConfigurationReference = C402248A7A52F5F5319CCA1A /* Pods-NoteReading-NoteReadingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -740,7 +742,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = AirbnbTests/Info.plist;
+				INFOPLIST_FILE = NoteReadingTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -750,18 +752,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Airbnb.app/Airbnb";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoteReading.app/NoteReading";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7CEEA95DA765AD1212269EF /* Pods-Airbnb-AirbnbTests.release.xcconfig */;
+			baseConfigurationReference = D7CEEA95DA765AD1212269EF /* Pods-NoteReading-NoteReadingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = AirbnbTests/Info.plist;
+				INFOPLIST_FILE = NoteReadingTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -771,29 +773,30 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Airbnb.app/Airbnb";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoteReading.app/NoteReading";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B3A7C10EFD2412E88AE42CE /* Pods-Airbnb.debug.xcconfig */;
+			baseConfigurationReference = 6B3A7C10EFD2412E88AE42CE /* Pods-NoteReading.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_ENTITLEMENTS = NoteReading/NoteReading.entitlements;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = YM62LBZ4XN;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Airbnb/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Airbnb;
-				SWIFT_OBJC_BRIDGING_HEADER = "Airbnb-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ky.booknotes;
+				PRODUCT_NAME = NoteReading;
+				SWIFT_OBJC_BRIDGING_HEADER = "NoteReading-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -802,22 +805,23 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69C09777ADC020A402000E41 /* Pods-Airbnb.release.xcconfig */;
+			baseConfigurationReference = 69C09777ADC020A402000E41 /* Pods-NoteReading.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_ENTITLEMENTS = NoteReading/NoteReading.entitlements;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = YM62LBZ4XN;
-				INFOPLIST_FILE = Airbnb/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Airbnb;
-				SWIFT_OBJC_BRIDGING_HEADER = "Airbnb-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ky.booknotes;
+				PRODUCT_NAME = NoteReading;
+				SWIFT_OBJC_BRIDGING_HEADER = "NoteReading-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -825,7 +829,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79A4989790EB7FEEB3DEB994 /* Pods-Airbnb-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 79A4989790EB7FEEB3DEB994 /* Pods-NoteReading-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -836,14 +840,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Airbnb-tvOS/Info.plist";
+				INFOPLIST_FILE = "NoteReading-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Airbnb-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.NoteReading-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -853,7 +857,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7C93F7907656F0B8F613DFF /* Pods-Airbnb-tvOS.release.xcconfig */;
+			baseConfigurationReference = A7C93F7907656F0B8F613DFF /* Pods-NoteReading-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -864,14 +868,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Airbnb-tvOS/Info.plist";
+				INFOPLIST_FILE = "NoteReading-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Airbnb-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.NoteReading-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -881,7 +885,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BB560C39B32E6A1F0A1A12C /* Pods-Airbnb-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 7BB560C39B32E6A1F0A1A12C /* Pods-NoteReading-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -891,24 +895,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Airbnb-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "NoteReading-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Airbnb-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.NoteReading-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Airbnb-tvOS.app/Airbnb-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoteReading-tvOS.app/NoteReading-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FCBA5066F796D310C4A982F /* Pods-Airbnb-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 3FCBA5066F796D310C4A982F /* Pods-NoteReading-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -918,17 +922,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Airbnb-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "NoteReading-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Airbnb-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.NoteReading-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Airbnb-tvOS.app/Airbnb-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoteReading-tvOS.app/NoteReading-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -1049,7 +1053,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AirbnbTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "NoteReadingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1058,7 +1062,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Airbnb" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "NoteReading" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1067,7 +1071,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Airbnb-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "NoteReading-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1076,7 +1080,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Airbnb-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "NoteReading-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1085,7 +1089,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Airbnb" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "NoteReading" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
