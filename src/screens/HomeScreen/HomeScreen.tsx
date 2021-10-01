@@ -5,6 +5,7 @@ import {
   FlatList,
   StatusBar,
   ActivityIndicator,
+  Platform,
 } from 'react-native';
 import {colors} from '@src/assets/theme';
 import Ionicons from 'react-native-vector-icons/Ionicons';
@@ -136,7 +137,7 @@ export default function HomeScreen({navigation}) {
       />
       {isLoading ? (
         <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-          <ActivityIndicator />
+          <ActivityIndicator color="white" />
         </View>
       ) : (
         <FlatList
@@ -158,7 +159,8 @@ export default function HomeScreen({navigation}) {
           width: 66,
           borderRadius: 33,
           position: 'absolute',
-          top: screenHeight - 200,
+          top:
+            Platform.OS == 'android' ? screenHeight - 300 : screenHeight - 200,
           left: screenWidth - 82,
         }}
       />

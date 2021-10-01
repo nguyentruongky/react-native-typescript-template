@@ -37,7 +37,7 @@ export function TopBar({
         Library={MaterialIcons}
         name="arrow-back-ios"
         size={30}
-        color={colors.mainButtonBg}
+        color="white"
         style={{marginLeft: 16, height: 36}}
         onPress={onPressBack}
       />

@@ -5,6 +5,7 @@ import {
   FlatList,
   StatusBar,
   ActivityIndicator,
+  Platform,
 } from 'react-native';
 import {colors} from '@src/assets/theme';
 import Ionicons from 'react-native-vector-icons/Ionicons';
@@ -100,7 +101,7 @@ export default function NoteListScreen({navigation, route}) {
           justifyContent: 'center',
           alignItems: 'center',
         }}>
-        <ActivityIndicator style={{}} />
+        <ActivityIndicator color="white" />
       </SafeAreaView>
     );
   }
@@ -131,7 +132,8 @@ export default function NoteListScreen({navigation, route}) {
       <View
         style={{
           position: 'absolute',
-          top: screenHeight - 140,
+          top:
+            Platform.OS == 'android' ? screenHeight - 180 : screenHeight - 140,
           left: screenWidth - 82,
         }}>
         <VectorButton
